@@ -1,0 +1,244 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Good morning",
+                "Hey there"
+            ],
+            "responses": [
+                "Hello! Welcome to our coffee shop!",
+                "Hi there! How can I help you today?",
+                "Good day! What can I get for you?",
+                "Welcome! Ready to order?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Have a nice day"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you soon!",
+                "Thanks for visiting! Come back again!",
+                "Take care! Enjoy your coffee!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thanks a lot",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "My pleasure!",
+                "Anytime! Enjoy!"
+            ]
+        },
+        {
+            "tag": "menu_inquiry",
+            "patterns": [
+                "What do you have?",
+                "Show me the menu",
+                "What can I order?",
+                "What drinks do you offer?"
+            ],
+            "responses": [
+                "We offer coffee, espresso, lattes, cappuccinos, teas, and various pastries!",
+                "Our menu includes hot and cold beverages, sandwiches, and baked goods.",
+                "We have a variety of coffee drinks, teas, smoothies, and fresh pastries.",
+                "Check out our selection of specialty coffees, teas, and delicious snacks!"
+            ]
+        },
+        {
+            "tag": "order_coffee",
+            "patterns": [
+                "I want a coffee",
+                "Can I get a latte?",
+                "I'll have an espresso",
+                "One cappuccino please"
+            ],
+            "responses": [
+                "Great choice! What size would you like?",
+                "Sure! Would you like that hot or iced?",
+                "Coming right up! Any specific preferences?",
+                "Perfect! Small, medium, or large?"
+            ]
+        },
+        {
+            "tag": "order_food",
+            "patterns": [
+                "Do you have sandwiches?",
+                "I want a pastry",
+                "Can I get a muffin?",
+                "What food do you have?"
+            ],
+            "responses": [
+                "Yes! We have fresh sandwiches, croissants, muffins, and cookies.",
+                "We have a great selection of pastries and sandwiches available!",
+                "Our bakery items include muffins, scones, croissants, and brownies.",
+                "Sure! We offer sandwiches, wraps, and various baked goods."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "How much is a latte?",
+                "What are your prices?",
+                "How much does it cost?",
+                "What's the price?"
+            ],
+            "responses": [
+                "Our drinks range from $3 to $6 depending on size and type.",
+                "Prices start at $3 for regular coffee and go up to $6 for specialty drinks.",
+                "A small coffee is $3, medium is $4, and large is $5.",
+                "Food items range from $2 to $8. Drinks are $3 to $6."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What time do you open?",
+                "When do you close?",
+                "What are your hours?",
+                "Are you open now?"
+            ],
+            "responses": [
+                "We're open Monday to Friday 7am-8pm, weekends 8am-6pm.",
+                "Our hours are 7am to 8pm on weekdays and 8am to 6pm on weekends.",
+                "We open at 7am on weekdays and 8am on weekends!",
+                "Yes! We're open daily. Weekdays 7am-8pm, weekends 8am-6pm."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "What's your address?",
+                "How do I get there?",
+                "Where is your shop?"
+            ],
+            "responses": [
+                "We're located at 123 Main Street, downtown.",
+                "You can find us at 123 Main Street, near the park.",
+                "Our address is 123 Main Street. We're right by the subway station!",
+                "We're on Main Street, just two blocks from the library."
+            ]
+        },
+        {
+            "tag": "wifi",
+            "patterns": [
+                "Do you have wifi?",
+                "What's the wifi password?",
+                "Can I use the internet?",
+                "Is there free wifi?"
+            ],
+            "responses": [
+                "Yes! Our wifi network is 'CoffeeShop' and the password is 'coffee123'.",
+                "Free wifi available! Network: CoffeeShop, Password: coffee123.",
+                "Absolutely! Connect to 'CoffeeShop' with password 'coffee123'.",
+                "Yes, we offer free wifi. Ask the barista for the current password!"
+            ]
+        },
+        {
+            "tag": "recommendations",
+            "patterns": [
+                "What do you recommend?",
+                "What's popular?",
+                "What's your best drink?",
+                "What should I try?"
+            ],
+            "responses": [
+                "Our caramel macchiato is very popular!",
+                "I'd recommend our signature vanilla latte or the mocha!",
+                "The iced caramel latte is a customer favorite!",
+                "Try our house blend coffee or the hazelnut cappuccino!"
+            ]
+        },
+        {
+            "tag": "customization",
+            "patterns": [
+                "Can I add extra shot?",
+                "Do you have almond milk?",
+                "Can I make it decaf?",
+                "Can I customize my order?"
+            ],
+            "responses": [
+                "Of course! We have various milk options and add-ons available.",
+                "Yes! We offer soy, almond, oat milk, and extra shots.",
+                "Absolutely! We can customize any drink to your preference.",
+                "Sure! Just let us know what modifications you'd like."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "Do you take card?",
+                "Can I pay with cash?",
+                "What payment methods do you accept?",
+                "Do you accept mobile payment?"
+            ],
+            "responses": [
+                "We accept cash, credit cards, and mobile payments!",
+                "Yes! We take cash, cards, Apple Pay, and Google Pay.",
+                "All payment methods accepted: cash, card, and contactless!",
+                "You can pay with cash, debit, credit, or mobile wallet."
+            ]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": [
+                "Do you have a rewards program?",
+                "How does your loyalty program work?",
+                "Can I earn points?",
+                "Do you have a membership?"
+            ],
+            "responses": [
+                "Yes! Buy 10 drinks and get one free!",
+                "We have a loyalty card - every 10th drink is on us!",
+                "Join our rewards program and earn points with every purchase!",
+                "Sign up for our app and get rewards with each visit!"
+            ]
+        },
+        {
+            "tag": "allergies",
+            "patterns": [
+                "Do you have dairy-free options?",
+                "I have a nut allergy",
+                "What are the ingredients?",
+                "Is this gluten-free?"
+            ],
+            "responses": [
+                "Yes, we have dairy-free milk alternatives and gluten-free options.",
+                "We can accommodate most allergies. Please inform the barista.",
+                "All ingredients are listed on our menu. Just ask if you need specifics!",
+                "We offer dairy-free, nut-free, and gluten-free options!"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "This is not what I ordered",
+                "My coffee is cold",
+                "I'm not satisfied",
+                "There's a problem with my order"
+            ],
+            "responses": [
+                "I apologize for that! Let me fix it for you right away.",
+                "I'm sorry to hear that. We'll remake it immediately.",
+                "My apologies! Please let me make it right for you.",
+                "I'm sorry for the inconvenience. Let's get you a fresh one!"
+            ]
+        }
+    ]
+}
