@@ -1,5 +1,4 @@
 .venv/
-datas/
 outputs/
 documents/
 __pycache__/
